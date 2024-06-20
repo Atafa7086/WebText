@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamVideo</title>
+    <!-- 西欸斯 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 內爸 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">StreamFlix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Movies
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#熱門">熱門</a></li>
+                            <li><a class="dropdown-item" href="#精選">精選</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 橫幅 -->
+    <header id="home" class="bg-dark text-white text-center py-5 pt-0 mt-5">
+        <div class="container-fluid p-0">
+            <div class="logo mb-3">
+                <img src="./images/756.png" alt="Logo" class="img-fluid"
+                    style="width: 100%; height: 70vh; object-fit: cover;">
+    </header>
+
+    <!-- 放影片的 -->
+    <section id="熱門" class="service-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">熱門影片</h2>
+            <div class="row g-4">
+                <!-- 影片1 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/3UvgV71ZnfY?si=F5TX63Vjm6d27lEb"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">羅傑</h5>
+                            <p class="card-text">就沒有達到!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片2 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/eROeXEW540Q?si=ILHP1REhd49wwBPW"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">羅傑</h5>
+                            <p class="card-text">余渣你不是2486</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/XL1csU1Sl_Q?si=ukUoIpSSeqMoNcWH"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">羅傑</h5>
+                            <p class="card-text">很多人想跳進這個戰局是不是</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片4 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/3UCYpooOFzY?si=kctbC4PmDc-eYv2X"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">羅傑</h5>
+                            <p class="card-text">羅傑kyo告趕</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片5 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/Q16TRBw0ubg?si=bk1qhsBIJsT9kSPV"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">館長</h5>
+                            <p class="card-text">羅傑是誰?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片6 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/QzCKdIJ1Q48?si=tWHwR6V6EKQDfIPu"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">羅傑</h5>
+                            <p class="card-text">賽勒斯打輸拉姆斯，就說你不夠格了</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片7 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/aJZ7kZDviNE?si=qgMZ0PwAvikhx3g3"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">尼克星</h5>
+                            <p class="card-text">only up</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片8 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/ESOFNRVaSpo?si=6Oiv8CHSBOCcMNnk"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">尼克星</h5>
+                            <p class="card-text">台灣Speed</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片9 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/tqRK8VCXdaI?si=9Dfi3uuYLVv1kS9D"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">火爆可可</h5>
+                            <p class="card-text">沒有想到在這樣的大賽場上，竟然敢進行這樣的表演</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片10 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/F09QJoSH7eM?si=xZVTDjjnI0e7ybyY"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">火爆可可</h5>
+                            <p class="card-text">黑色絲襪對爆哥來說算黑色絲襪嗎</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片11 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/YQYrewM3UaU?si=rLVDH3_BzdzW7E2s"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">錫蘭</h5>
+                            <p class="card-text">騙錢我的梗</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片12 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/fBpGvut36E0?si=C02lv-RPYVWRSL2P"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">錫蘭</h5>
+                            <p class="card-text">叉雞對不起</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片13 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/UE0rKnAeauY?si=Mh37Y-cbxxhmV9Xt"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">放火</h5>
+                            <p class="card-text">放火家裡有金條</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片14 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/yZgw329Ui34?si=FlUjzeFOdpBqNNk9"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">放火</h5>
+                            <p class="card-text">青青石是稀有的礦物</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片15 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/8I1fOkicFvc?si=XROyeaDz5CGvhJJ4"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">統神</h5>
+                            <p class="card-text">跳針跳針跳針跳針跳針跳針跳針</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片16 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/gC2q51UIgY0?si=cYujbKEbpUnm9TKn"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">RB世誠</h5>
+                            <p class="card-text">Chovy對RB給予極高評價</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片17 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/Amy5eOYAi-s?si=zPPTpA6MCmqQ4_Hg&amp;start=178"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">阿能</h5>
+                            <p class="card-text">當歌手是最想當</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片18 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/NrwNbS-Q6Qc?si=zI5NwfA7MzsClkiy"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">阿能</h5>
+                            <p class="card-text">IU根本就不醜🤬</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- 精選 -->
+    <section id="精選" class="service-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">精選影片</h2>
+            <div class="row g-4">
+                <!-- 影片1 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/_kxYuVi5uCQ?si=LOa_f0C8eByZESb9"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">張家夫妻打起來</h5>
+                            <p class="card-text">RRR~我是嚶嚶怪</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片2 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/dWPRZVJiSzQ?si=BZPuQFUiV6ODi6IG"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">張家夫妻打起來</h5>
+                            <p class="card-text">5555555~</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/vEPp29Jh8UQ?si=ZG3iZ4uXztzlhY2g"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">統神</h5>
+                            <p class="card-text">最後的獨白</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/8zNLCVroj2A?si=hJJ76K6ErUkT1pn4"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kotte animation</h5>
+                            <p class="card-text">料理鼠王</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/NeFXcBtFPcY?si=g2WHlrp9GmPGI76B"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kotte animation</h5>
+                            <p class="card-text">五條悟失去了他的技術</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/iiTDUNkRn0w?si=pLI7om1ljsVCorxX"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kotte animation</h5>
+                            <p class="card-text">蜘蛛人救火車</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/CajNav1gfiU?si=75Y8cC7P3DlNFY9e"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">單申即地獄</h5>
+                            <p class="card-text">男童俱樂部已經正式改名叫叉滴娛樂</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/fQk8zsit0Fs?si=aqk4o_-blMHkyupG"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">HJC</h5>
+                            <p class="card-text">EEnggner</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/cK79c2Y_pWU?si=mmA_m_-gOVJhB21e"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">吳克群</h5>
+                            <p class="card-text">反作用力大師</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/TVENU2vOGbQ?si=Eg3e_2_ng4RNJGRi"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">館長</h5>
+                            <p class="card-text">終於抓到當初的羌手</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/dyfSnQI1k_4?si=hhpBizS6FTABKHZR"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">HJC</h5>
+                            <p class="card-text">摸欸摸欸糾</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 影片3 -->
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/yf47y-GJVMU?si=euuG7lzMewiPESxx"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">米老鼠</h5>
+                            <p class="card-text">咪斯卡摸斯卡</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- 關於 -->
+    <section id="about" class="about-section bg-light py-5">
+        <div class="container text-center">
+            <h2>關於我</h2>
+            <p>黃宥融</p>
+            <p>B11032034</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap和JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
