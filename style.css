@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-in;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: #343a40;
+}
+
+.banner-image {
+    background: url('./images/logo.png') no-repeat center center;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+}
+
+header .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header .project-name,
+header .lead {
+    position: relative;
+    z-index: 3;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive::before {
+    display: block;
+    content: "";
+}
+
+.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.service-section .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 18px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.5s ease-in;
+}
